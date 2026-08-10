@@ -169,14 +169,7 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentPage, onOpenOrderModal
         <div className="pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
           <div>
             © {new Date().getFullYear()} <span className="text-white font-semibold">Medical Shop</span>. All Rights Reserved. Located at Purani Bazar, Paliganj, Bihar 801110. Developed by{' '}
-            <a
-              href="https://main.webmakerit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#0A8F6A] hover:underline font-medium"
-            >
-              WMIT
-            </a>.
+           <a href="#" class="wmit-popup-trigger">Developed by WMIT</a>
           </div>
 
           <div className="flex items-center gap-4">
